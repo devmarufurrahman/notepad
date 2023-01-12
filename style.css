@@ -1,0 +1,31 @@
+.singleTask{
+    min-height: 75px;
+    padding: 5px;
+    background-color: aquamarine;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.controlPanel{
+    width: 100%;
+    min-height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position:absolute;
+    left: 0;
+    bottom: 0;
+}
+.colorCircle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.inner-textarea{
+    resize: none;
+    position: absolute;
+    background-color: #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.35);
+    left: 0;
+    top: 0;
+    font-size: 16px;
+    padding: 9px;
+}
